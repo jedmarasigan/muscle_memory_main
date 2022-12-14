@@ -3,11 +3,11 @@ Prerequisites
 -VSCode
 -Go
 -Git
+-SQL
 -Postman
 
 Information about the project
 -Environment: GoLang
--Backend Framework: Fiber
 -Package Manager: GoPath
 -FrontEnd: Vue.js with Tailwind
 -VueJS framework: NuxtJS
@@ -15,3 +15,5 @@ Information about the project
     -Auto generated routes
     -Separates layouts, pages, and components
     -Server side rendering (whatever that means)
+-DataBase: MySql using GORM package
+-Gorilla Mux package for matching routes, serving static files, building single-page applications(SPA's), middleware, handling cross-origin resourse sharing(CORS) requests, and testing handlers
