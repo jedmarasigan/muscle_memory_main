@@ -9,15 +9,15 @@ var db *gorm.DB
 
 type Person struct {
 	gorm.Model
-	Name       string
-	BodyWeight float32
+	Name       string  `json:"name"`
+	BodyWeight float32 `json:"bodyWeight"`
 }
 
 type Workout struct {
 	gorm.Model
-	Name   string
-	Reps   int
-	Weight float32
+	Name   string  `json:"name"`
+	Reps   int     `json:"reps"`
+	Weight float32 `json:"weight"`
 }
 
 func init() {
